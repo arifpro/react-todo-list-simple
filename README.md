@@ -29,12 +29,18 @@ This website is deployed on Github. [Click here](https://arifpro.github.io/react
 - `npm i --save @fortawesome/free-solid-svg-icons`
 - `npm i --save @fortawesome/react-fontawesome`
 
+## Animate the list Items by react-flip-move and used this command to install this:
+- `npm i -S react-flip-move`
+
 
 ## Commands used to publish React files in github:
+- Add this in your package.json: `"homepage": "https://arifpro.github.io/react-todo-list-simple",`
+- Add those in your script object in package.json under the 'start': `"predeploy": "npm run build", "deploy": "gh-pages -d build",`
+- `npm install gh-pages --save-dev`
 - `git remote set-url origin https://github.com/arifpro/react-todo-list-simple`
 - `npm run build`
 - `npm run deploy`
 
 
 ## Screenshots
-![homepage](https://i.ibb.co/)
+![homepage](https://i.ibb.co/4TcVhyK/todo-list-simple.png)
