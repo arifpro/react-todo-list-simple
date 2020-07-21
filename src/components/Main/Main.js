@@ -23,6 +23,10 @@ const Main = () => {
             setCurrentItem({text: '', key: ''})
         }
     }
+    const deleteItem = (key) => {
+        const filteredItems = item.filter(element => element.key!==key)
+        setItem(filteredItems)
+    }
     return (
         <div id="mainDiv">
             <header>
@@ -35,7 +39,7 @@ const Main = () => {
                     <button type="submit">Add</button>
                 </form>
             </header>
-            <ListItem items={item}/>
+            <ListItem items={item} deleteItem={deleteItem}/>
         </div>
     )
 }
