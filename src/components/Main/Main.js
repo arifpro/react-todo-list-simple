@@ -1,6 +1,10 @@
 import React, { useState } from 'react'
 import './Main.css'
 import ListItem from '../ListItem/ListItem'
+import {library} from '@fortawesome/fontawesome-svg-core'
+import {faTrash} from '@fortawesome/free-solid-svg-icons'
+
+library.add(faTrash)
 
 const Main = () => {
     const [item, setItem] = useState([])
