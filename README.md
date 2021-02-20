@@ -1,4 +1,4 @@
-# [React Todo List Simple](https://arifpro.github.io/react-todo-list-simple) &middot; [![npm version](https://img.shields.io/npm/v/react.svg?style=flat)](https://www.npmjs.com/package/react) [![Author Arif](https://img.shields.io/badge/Author-Arif-%3C%3E)](https://www.facebook.com/ProArif0)
+# [React Todo List Simple](https://arifpro.github.io/react-todo-list-simple) &middot;  [![Author Arif](https://img.shields.io/badge/Author-Arif-%3C%3E)](https://www.facebook.com/ProArif0)
 
 
 ## A simple ReactJs site 
